@@ -1,0 +1,29 @@
+.menu-principal {
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-start;
+  
+}
+
+.menu-principal li {
+  padding: 1em;
+  margin-left: 1em;
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: .4em;
+  text-transform: uppercase;
+  transition: background-color .5s;
+
+}
+
+.menu-principal li:hover {
+  background-color: rgb(14, 98, 209);
+
+}
+
+.menu-principal a {
+  text-decoration: none;
+  margin: 1em;
+  color: #000;
+  flex-direction: row;
+
+}
