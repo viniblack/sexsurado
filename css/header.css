@@ -1,7 +1,40 @@
 body {
-  background: #007F82;
+  background-image: url(../img/back.png);
+  background-size: cover;
   overflow: hidden;
 }
+
+p{
+  font-size: 1.2em;
+}
+
+/* dragger */
+
+#tudo {
+  height: 100vh;
+  position: absolute;
+  z-index: 9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#janela {
+  z-index: 10;
+  height: 90vh;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+#allmenu {
+  width: 90%;
+}
+
+.title-bar {
+  cursor: move;
+}
+
+/* Nav-bar Menu Principal */
 
 .menu-principal {
   list-style-type: none;
@@ -17,11 +50,14 @@ body {
   border-radius: .4em;
   text-transform: uppercase;
   transition: background-color .5s;
-  margin-top: 1em;
+  margin: 1em .5em;
+  padding-right: 5em;
+  padding-left: 5em;
 }
 
 .menu-principal li:hover {
   background-color: rgb(14, 98, 209);
+  
 
 }
 
@@ -59,31 +95,4 @@ body {
     background-color: rgb(14, 98, 209);
 
   }
-}
-
-
-/* dragger */
-
-#tudo {
-  height: 100vh;
-  position: absolute;
-  z-index: 9;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-#janela {
-  z-index: 10;
-  height: 90vh;
-  overflow-y: scroll;
-  overflow-x: hidden;
-}
-
-#allmenu {
-  width: 90%;
-}
-
-.title-bar {
-  cursor: move;
 }
