@@ -1,0 +1,6 @@
+.carousel,
+.item,
+.active {
+width: 50em;
+flex-wrap: wrap;
+}
