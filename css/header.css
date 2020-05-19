@@ -7,7 +7,8 @@ body {
 .menu-principal {
   list-style-type: none;
   display: flex;
-  align-items: flex-end;
+  align-items:stretch;
+  font-size: 1.3em;
 
 }
 
@@ -51,8 +52,14 @@ body {
   }
 
   .menu-principal li {
-    margin: 0 1em 0 -3em ;
-    font-size: 1.3em;
+    margin: 0 -3em ;
+    font-size: 1em;
+    padding-left: 0;
+  }
 
+  .menu-principal li:hover {
+    margin-right: 0;
+    background-color: rgb(14, 98, 209);
+  
   }
 }
