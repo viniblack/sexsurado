@@ -9,8 +9,8 @@ p {
   align-items: left;
 }
 
-@media (max-width: 450px) 
-{
+@media (max-width: 450px) {
+
   .carousel,
   .item,
   .active {

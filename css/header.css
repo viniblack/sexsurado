@@ -1,20 +1,18 @@
 body {
-  background: black;
-  padding: 2em;
-
+  background: #007F82;
+  overflow: hidden;
 }
 
 .menu-principal {
   list-style-type: none;
   display: flex;
-  align-items:stretch;
+  align-items: stretch;
   font-size: 1.3em;
 
 }
 
 .menu-principal li {
   padding: 1em;
-  margin-left: 1em;
   background-color: rgba(0, 0, 0, 0.1);
   border-radius: .4em;
   text-transform: uppercase;
@@ -34,12 +32,11 @@ body {
 
 }
 
-@media (max-width: 450px) 
-{
+@media (max-width: 450px) {
   body {
     display: flex;
     justify-content: center;
-  
+
   }
 
   .window {
@@ -48,11 +45,11 @@ body {
 
   .menu-principal {
     flex-direction: column;
-  
+
   }
 
   .menu-principal li {
-    margin: 0 -3em ;
+    margin: 0 -3em;
     font-size: 1em;
     padding-left: 0;
   }
@@ -60,6 +57,33 @@ body {
   .menu-principal li:hover {
     margin-right: 0;
     background-color: rgb(14, 98, 209);
-  
+
   }
+}
+
+
+/* dragger */
+
+#tudo {
+  height: 100vh;
+  position: absolute;
+  z-index: 9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#janela {
+  z-index: 10;
+  height: 90vh;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+#allmenu {
+  width: 90%;
+}
+
+.title-bar {
+  cursor: move;
 }
