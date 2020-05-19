@@ -2,14 +2,13 @@ body {
   background: black;
   padding: 2em;
 
-  
 }
 
 .menu-principal {
   list-style-type: none;
   display: flex;
-  justify-content: flex-start;
-  
+  align-items: flex-end;
+
 }
 
 .menu-principal li {
@@ -19,7 +18,7 @@ body {
   border-radius: .4em;
   text-transform: uppercase;
   transition: background-color .5s;
-
+  margin-top: 1em;
 }
 
 .menu-principal li:hover {
@@ -31,6 +30,29 @@ body {
   text-decoration: none;
   margin: 1em;
   color: #000;
-  flex-direction: row;
 
+}
+
+@media (max-width: 450px) 
+{
+  body {
+    display: flex;
+    justify-content: center;
+  
+  }
+
+  .window {
+    width: 30em
+  }
+
+  .menu-principal {
+    flex-direction: column;
+  
+  }
+
+  .menu-principal li {
+    margin: 0 1em 0 -3em ;
+    font-size: 1.3em;
+
+  }
 }

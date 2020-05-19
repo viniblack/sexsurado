@@ -1,6 +1,12 @@
 .carousel,
 .item,
 .active {
-width: 50em;
-flex-wrap: wrap;
+  width: 50em;
+  
+  flex-wrap: wrap;
+  margin-left: 1em;
+}
+
+p {
+  align-items: left;
 }
