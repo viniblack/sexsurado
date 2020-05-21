@@ -1,12 +1,6 @@
-.carousel,
-.item,
-.active {
-  width: 70em;
-  margin-left: 1em;
-}
-
-p {
-  align-items: left;
+.p-3 {
+  font-size: 1.8em;
+  
 }
 
 @media (max-width: 450px) {
@@ -16,10 +10,10 @@ p {
   .active {
     width: 100%;
     margin-left: 0;
+
   }
 }
 
 @media (max-width: 1300px) {
-
 
 }
