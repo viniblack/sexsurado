@@ -1,0 +1,14 @@
+body {
+ padding-top: 3px;
+}
+
+.container.gallery-container {
+ background-color: rgba(255, 255, 255, 0);
+ box-shadow: 0 0 0;
+}
+
+button {
+
+ min-width: 5px;
+
+}
