@@ -29,11 +29,3 @@ $(".reset").click(function () {
         'top': $("#allmenu").data('origionalTop')
     });
 });
-
-let tamanhoTela = $(document).width();
-
-console.log(tamanhoTela);
-
-if(tamanhoTela < 1400) {
-    $(this).toggleClass('col-md-6')
-}

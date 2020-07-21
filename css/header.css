@@ -7,7 +7,7 @@ body {
 
 .title-bar {
   background: linear-gradient(90deg, rgba(0, 0, 128, 1) 0%, rgba(132, 16, 208, 1) 100%);
-  
+
 }
 
 .title-bar-text {
@@ -22,7 +22,7 @@ body {
   display: flex;
   align-items: stretch;
   font-size: 1.3em;
-
+  padding-top: 2em;
 }
 
 .menu-principal li {
@@ -30,8 +30,7 @@ body {
   border-radius: .4em;
   text-transform: uppercase;
   transition: background-color .5s;
-  padding: 1em 0em;
-  margin: 1em .5em;
+ margin-left: 1em;
 
 }
 
@@ -41,10 +40,10 @@ body {
 }
 
 .menu-principal a {
+  display: block;
   text-decoration: none;
-  margin: 1em;
   color: #000;
-  padding: 1em 5em;
+  padding: 1.5em 5em;
 
 }
 

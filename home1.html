@@ -16,12 +16,10 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
     integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-
   <!-- Meu CSS -->
   <link rel="stylesheet" href="css/header.css">
   <link rel="stylesheet" href="css/home-content.css">
   <link rel="stylesheet" href="css/dragger.css">
-  <link rel="stylesheet" href="css/teste.css">
 </head>
 
 <body>
@@ -52,48 +50,45 @@
           </div>
         </div>
 
-        <div class="col-md-12">
-          <img src="img/logo2.png" alt="logo">
+        <!-- Indicators do carousel-->
+        <div class="row d-flex">
+          <div class="col-md-6 d-flex w-100 justify-content-center">
+            <div id="carouselExampleControls" class="carousel" data-ride="carousel">
+              <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+              </ol>
 
-          <!-- Indicators do carousel-->
-          <div class="row d-flex">
-            <div class="col-md-12 d-flex w-100 justify-content-center">
-              <div id="carouselExampleControls" class="carousel" data-ride="carousel">
-                <ol class="carousel-indicators">
-                  <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                  <li data-target="#myCarousel" data-slide-to="1"></li>
-                </ol>
-
-                <!-- Fotos do carousel -->
-                <div class="carousel-inner" style="height:45em; width: 80em; ">
-                  <div class="carousel-item active">
-                    <img class="d-block w-100" src="img/SEX-surado/equipe.jpg" alt="First slide" />
-                  </div>
-
-                  <div class="carousel-item">
-                    <img class="d-block w-100" src="img/SEX-surado/rapidinha.png" alt="Second slide" />
-                  </div>
-
-
+              <!-- Fotos do carousel -->
+              <div class="carousel-inner" style="height:65em; width: 65em; ">
+                <div class="carousel-item active">
+                  <img class="d-block w-100" src="img/21.png" alt="First slide" />
                 </div>
 
-                <!-- Controle do carousel -->
-                <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="sr-only">Previous</span>
-                </a>
-                <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="sr-only">Next</span>
-                </a>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="img/22.png" alt="Second slide" />
+                </div>
+
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="img/23.png" alt="Third slide" />
+                </div>
               </div>
+
+              <!-- Controle do carousel -->
+              <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
             </div>
-            <p style="color: #C0C0C0;">
-              GAMBIARRA QUE VOU FALAR QUE ALGUM DIA VOU ARRUMAR MAS NUNCA VOU FAZER ISSO,
-              ESPERO QUE VOCÊ DO FUTURO NÃO FAÇA MAIS ISSO E QUE ISSO FIQUE NO SEU PASSADO ESCUTO
-              vc agr mesmo pensou é só usar nth:child que resolve... mas não vamos ficar com o meme
-            </p>
-            <br>
+          </div>
+
+          <div class="col-md-6">
+            <h2><img src="img/logo.png" alt="logo" style="width: 13em;"></h2>
             <p class="p-3">
               Estamos aqui para quebrar tabus, abrir mentes e abrir as pernas (mas sempre consentido). Desde de os
               tempos antigos o sexo era tratado como um ato divino, uma contemplação.
@@ -101,7 +96,6 @@
               ato de liberdade e nas décadas seguintes figuras como a Tiazinha e Emanuelle se tornaram símbolo sexual de
               uma geração.
             </p>
-
             <p class="p-3">
               Mas, por que hoje vivemos em um falso conservadorismo?
               No Sexsurado você vai poder interagir com a gente no quadro Rapidinhas mandando sua pergunta no Instagram.
@@ -118,21 +112,28 @@
               perder o primeiro episódio desse programa descarado.
             </p>
           </div>
+        </div>
+</div>
+      </div>
+    </div>
+  </div>
 
-          <!-- jQuery -->
-          <script src="https://code.jquery.com/jquery-3.4.1.min.js"
-            integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-          <script src="https://code.jquery.com/ui/1.12.0/jquery-ui.js"
-            integrity="sha256-0YPKAwZP7Mp3ALMRVB2i8GXeEndvCq3eSl/WsAl1Ryk=" crossorigin="anonymous"></script>
-          <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
-          </script>
-          <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
-          </script>
+  <!-- jQuery -->
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous">
+  </script>
+  <script src="https://code.jquery.com/ui/1.12.0/jquery-ui.js"
+    integrity="sha256-0YPKAwZP7Mp3ALMRVB2i8GXeEndvCq3eSl/WsAl1Ryk=" crossorigin="anonymous">
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+  </script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+  </script>
 
-          <!-- Meu javaScript -->
-          <script src="js/index.js"></script>
+  <!-- Meu javaScript -->
+  <script src="js/index.js"></script>
 </body>
 
 </html>
