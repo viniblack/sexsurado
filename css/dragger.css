@@ -1,6 +1,7 @@
 /* dragger */
 
-#tudo {
+#tudo,
+#tudo1 {
     height: 100vh;
     /* position: absolute; */
     z-index: 9;
@@ -16,10 +17,16 @@
     overflow-x: hidden;
 }
 
-#allmenu {
+#allmenu,
+#allmen {
     width: 90%;
 }
 
 .title-bar {
     cursor: move;
+}
+
+#teste {
+    color: red;
+    font-size: 29px;
 }
