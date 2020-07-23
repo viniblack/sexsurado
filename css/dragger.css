@@ -1,25 +1,25 @@
 /* dragger */
 
 #tudo {
-  height: 100vh;
-  /* position: absolute; */
-  z-index: 9;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    height: 100vh;
+    /* position: absolute; */
+    z-index: 9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #janela {
-  z-index: 10;
-  height: 90vh;
-  overflow-y: scroll;
-  overflow-x: hidden;
+    z-index: 10;
+    height: 90vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
 }
 
 #allmenu {
-  width: 90%;
+    width: 90%;
 }
 
 .title-bar {
-  cursor: move;
+    cursor: move;
 }
